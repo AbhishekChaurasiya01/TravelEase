@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destinations - TravelEase</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">TravelEase</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html" class="active">Destinations</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle">&#9776;</button>
+    </div>
+  </nav>
+
+  <div class="page-banner">
+    <h1>Our Destinations</h1>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter buttons - click to show only one category -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="beach">Beach</button>
+        <button class="filter-btn" data-category="mountain">Mountain</button>
+        <button class="filter-btn" data-category="city">City</button>
+      </div>
+
+      <div class="card-grid">
+
+        <div class="card" data-category="beach">
+          <img src="https://picsum.photos/seed/goa2/400/300" alt="Goa">
+          <div class="card-content">
+            <h3>Goa, India</h3>
+            <p>Beaches, nightlife, and Portuguese heritage.</p>
+            <p class="card-price">₹12,000 / person</p>
+          </div>
+        </div>
+
+        <div class="card" data-category="beach">
+          <img src="https://picsum.photos/seed/maldives/400/300" alt="Maldives">
+          <div class="card-content">
+            <h3>Maldives</h3>
+            <p>Crystal clear water and overwater villas.</p>
+            <p class="card-price">₹1,20,000 / person</p>
+          </div>
+        </div>
+
+        <div class="card" data-category="mountain">
+          <img src="https://picsum.photos/seed/manali/400/300" alt="Manali">
+          <div class="card-content">
+            <h3>Manali, India</h3>
+            <p>Snow-capped peaks and adventure sports.</p>
+            <p class="card-price">₹18,000 / person</p>
+          </div>
+        </div>
+
+        <div class="card" data-category="mountain">
+          <img src="https://picsum.photos/seed/switzerland/400/300" alt="Switzerland">
+          <div class="card-content">
+            <h3>Switzerland</h3>
+            <p>Alpine villages and scenic train rides.</p>
+            <p class="card-price">₹1,60,000 / person</p>
+          </div>
+        </div>
+
+        <div class="card" data-category="city">
+          <img src="https://picsum.photos/seed/dubai/400/300" alt="Dubai">
+          <div class="card-content">
+            <h3>Dubai, UAE</h3>
+            <p>Skyscrapers, shopping, and desert safaris.</p>
+            <p class="card-price">₹65,000 / person</p>
+          </div>
+        </div>
+
+        <div class="card" data-category="city">
+          <img src="https://picsum.photos/seed/paris2/400/300" alt="Paris">
+          <div class="card-content">
+            <h3>Paris, France</h3>
+            <p>Museums, cafes, and iconic landmarks.</p>
+            <p class="card-price">₹85,000 / person</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>&copy; 2026 TravelEase. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
